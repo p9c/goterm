@@ -34,7 +34,7 @@ func TestCreateDataTable(t *testing.T) {
 }
 
 func TestLineChartIndependent(t *testing.T) {
-	fmt.Println("Independent charts\n")
+	fmt.Println("Independent charts")
 
 	chart := NewLineChart(100, 20)
 	chart.Flags = DRAW_INDEPENDENT //| DRAW_RELATIVE
@@ -68,7 +68,7 @@ func TestLineChartIndependent(t *testing.T) {
 }
 
 func TestLineChartRelative(t *testing.T) {
-	fmt.Println("Relative chart\n")
+	fmt.Println("Relative chart")
 
 	chart := NewLineChart(100, 20)
 	chart.Flags = DRAW_RELATIVE
@@ -88,7 +88,7 @@ func TestLineChartRelative(t *testing.T) {
 }
 
 func TestLineChart(t *testing.T) {
-	fmt.Println("Simple chart\n")
+	fmt.Println("Simple chart")
 
 	chart := NewLineChart(100, 20)
 	//chart.Flags = /*DRAW_INDEPENDENT // | */// DRAW_RELATIVE

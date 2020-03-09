@@ -1,7 +1,7 @@
 package main
 
 import (
-	tm "github.com/buger/goterm"
+	tm "github.com/p9c/goterm"
 	"time"
 )
 

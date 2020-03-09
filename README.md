@@ -4,7 +4,7 @@ This library provides basic building blocks for building advanced console UIs.
 
 Initially created for [Gor](http://github.com/buger/gor).
 
-Full API documentation: http://godoc.org/github.com/buger/goterm
+Full API documentation: http://godoc.org/github.com/p9c/goterm
 
 ## Basic usage
 
@@ -12,7 +12,7 @@ Full screen console app, printing current time:
 
 ```go
 import (
-    tm "github.com/buger/goterm"
+    tm "github.com/p9c/goterm"
     "time"
 )
 
@@ -34,7 +34,7 @@ func main() {
 ```
 
 This can be seen in [examples/time_example.go](examples/time_example.go).  To
-run it yourself, go into your `$GOPATH/src/github.com/buger/goterm` directory
+run it yourself, go into your `$GOPATH/src/github.com/p9c/goterm` directory
 and run `go run ./examples/time_example.go`
 
 
@@ -87,7 +87,7 @@ Chart example:
 
 ```go
     import (
-        tm "github.com/buger/goterm"
+        tm "github.com/p9c/goterm"
     )
 
     chart := tm.NewLineChart(100, 20)
